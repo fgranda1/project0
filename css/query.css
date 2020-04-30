@@ -1,0 +1,25 @@
+@media only screen and (max-width: 576px) {
+  body {
+    font-size: 16px !important;
+  }
+
+  .sect1 h2 {
+    padding-top: 0.2em !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px !important;
+  }
+
+  .sect1 h2 {
+    padding-top: 0.2em !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .sect1 h2 {
+    padding-top: 0.2em !important;
+  }
+}
+
+/*# sourceMappingURL=query.css.map */

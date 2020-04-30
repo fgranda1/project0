@@ -1,0 +1,32 @@
+$brkLarge: 992px;
+$brkMedium: 768px;
+$brkSmall: 576px;
+
+@media only screen and (max-width: $brkSmall) {
+
+  body {
+    font-size: 16px !important;
+  }
+  .sect1 h2 {
+    padding-top: 0.2em !important;
+  }
+
+  
+}
+
+@media only screen and (max-width: $brkMedium) {
+
+  body {
+    font-size: 14px !important;
+  }
+  .sect1 h2 {
+    padding-top: 0.2em !important;
+  }
+}
+
+@media only screen and (max-width: $brkLarge) {
+
+  .sect1 h2 {
+    padding-top: 0.2em !important;
+  }
+}

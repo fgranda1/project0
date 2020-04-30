@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('query.css');
+
+$gDark: #186e87;
+$gTransp: #47b4c9;
+$gLight: #CCF9F4;
+$glighter: #E6FEFB;
+$b0: 0;
+
+
+%section {
+
+  width: 100%;
+  padding: 10px;
+
+}
+
+%btnTransp {
+  padding: 0.75em;
+  border: 3px solid;
+  border-radius: 15px;
+  font-weight: 700;
+}
+
+%btnBuy {
+  background-color: $gDark;
+  color: #fff !important;
+  opacity: .9 !important;
+  border-radius: 1em;
+  font-size: 1em !important;
+  padding: 0.55em !important;
+  border: 0;
+  &:hover{
+    opacity: 1 !important;
+  }
+
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: $gDark;
+}
+
+figure {
+  margin: 0 !important;
+}
+
+
+
+.container {
+  min-width: 342px;
+  .col {
+    padding-bottom: 1.5em;
+  }
+}
+
+
+  .glight {
+    @extend %section;
+    background-color: $gLight;
+
+  }
+
+  .navbar-brand {
+    img{
+      width:7em;
+    }
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+
+  .sect1 {
+      figure {
+        width: 90%;
+        margin: 0 auto;
+      }
+      p {
+        text-align: justify;
+        padding-bottom: 0.7em;
+
+      }
+      h2 {
+        font-family: 'Mr Dafoe', cursive;
+        font-size: 5em;
+        color: $gDark;
+        padding-top: 1em;
+        line-height: 0.7em;
+        padding-bottom: 0.2em;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 1.4em;
+        color: $gTransp;
+      }
+
+      img{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+      }
+      a {
+        &:hover{
+          opacity: 1;
+        }
+        @extend %btnTransp;
+        color: $gDark;
+        border-color: $gDark;
+        opacity: .9;
+        text-decoration: none;
+      }
+  }
+
+  .sect2 {
+    padding-top: 2em;
+    background: #fff;
+    h2 {
+      font-size: 4.5em;
+      font-weight: 700;
+      color: $gTransp;
+      line-height: 0.9em;
+
+    }
+    h4 {
+      font-weight: 700;
+      color: $gTransp;
+      font-size: 2em;
+      padding-bottom: 1em;
+    }
+    a {
+      font-weight: 700;
+      color: $gTransp;
+      font-size: 1em;
+    }
+    .sp {
+      font-style:italic;
+      font-weight:700;
+      color: $gDark;
+    }
+    .phone {
+      padding-top: 2em;
+      figure {
+        width: 100%;
+
+      }
+      img {
+        width: 100%;
+      }
+    }
+    table {
+      border: $b0;
+      tr {
+        border: $b0;
+        td {
+          border: $b0;
+        }
+        th {
+          border: $b0;
+          color: $gDark;
+        }
+      }
+    }
+  }
+
+  .sect3 {
+
+    @extend %section;
+    background: $glighter;
+    padding-right: 0 !important;
+    padding-top: 3em !important;
+    padding-bottom: 3em;
+    h2 {
+      font-family: 'Mr Dafoe', cursive;
+      font-size: 5em;
+      color: $gTransp;
+      padding-top: 1em;
+      line-height: 0.2em;
+      padding-bottom: 0.2em;
+
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 1.4em;
+      line-height: 0.8em;
+      color: $gDark;
+    }
+    h4 {
+      color: $gTransp;
+      font-size: 2.7em;
+      line-height: 0.9em;
+    }
+    h5 {
+      font-style: italic;
+      color: $gTransp;
+      font-size: 0.9em;
+      line-height: 0.5em;
+    }
+    span {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+
+    }
+    .headphones{
+      margin-bottom: -4em;
+    }
+    img {
+      padding-top: 1em;
+      width: 65%;
+    }
+  }
+
+  .sect4 {
+    padding-bottom: 1.5em;
+    background-color: #fff;
+    img {
+      width:19em;
+    }
+    h2 {
+      font-weight: 700;
+      color: $gDark;
+      font-size: 3.5em;
+      line-height: 0.8em;
+    }
+    a {
+      font-size: 1.2em;
+      font-style: italic;
+      color: $gDark;
+
+
+    }
+    .try {
+      padding-top: 3em;
+      padding-bottom: 3em;
+      color: $gDark;
+    }
+    span {
+            font-style: italic;
+            color: $gTransp;
+
+    }
+
+  }
+  .nav {
+    @extend %section;
+    background-color: $gDark;
+    color: white;
+    padding: 0.3em;
+  }
+
+  .footer {
+    @extend %section;
+    background-color: $gDark;
+    color: #f0f0f0;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+
+    .pay {
+      img {
+        width: 220px;
+      }
+    }
+    .col {
+      h3 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1em;
+      }
+      p {
+        font-size: 0.8em;
+        text-align: justify;
+      }
+
+    }
+    img {
+      width: 8em;
+      padding-bottom: 1em;
+
+    }
+    ul {
+      list-style: none;
+      padding-inline-start: 0 !important;
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.8em;
+        opacity: .8;
+        &:hover {
+          opacity: 1;
+
+        }
+      }
+    }
+
+  }
+  .desc {
+    a {
+      @extend %btnBuy;
+    }
+  }
+
+  .freep {
+    h2 {
+      line-height: 1.7em !important;
+    }
+    a{
+      @extend %btnBuy;
+      text-decoration: none;
+    }
+  }
+
+  .gotop {
+    &:hover {
+      bottom: 1.2em;
+    }
+    z-index: 1;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 2.5em;
+    height: 2.5em;;
+    border-radius: 50%;
+    background-color: $gDark;
+    text-align: center;
+    font-size: 0.9em;
+
+    a {
+      &::after{
+        content: '\2191';
+      }
+      line-height: 2.5em;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }

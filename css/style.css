@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap");
+@import url("query.css");
+.footer, .nav, .sect3, .glight {
+  width: 100%;
+  padding: 10px;
+}
+
+.sect1 a {
+  padding: 0.75em;
+  border: 3px solid;
+  border-radius: 15px;
+  font-weight: 700;
+}
+
+.freep a, .desc a {
+  background-color: #186e87;
+  color: #fff !important;
+  opacity: 0.9 !important;
+  border-radius: 1em;
+  font-size: 1em !important;
+  padding: 0.55em !important;
+  border: 0;
+}
+.freep a:hover, .desc a:hover {
+  opacity: 1 !important;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #186e87;
+}
+
+figure {
+  margin: 0 !important;
+}
+
+.container {
+  min-width: 342px;
+}
+.container .col {
+  padding-bottom: 1.5em;
+}
+
+.glight {
+  background-color: #CCF9F4;
+}
+
+.navbar-brand img {
+  width: 7em;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.sect1 figure {
+  width: 90%;
+  margin: 0 auto;
+}
+.sect1 p {
+  text-align: justify;
+  padding-bottom: 0.7em;
+}
+.sect1 h2 {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 5em;
+  color: #186e87;
+  padding-top: 1em;
+  line-height: 0.7em;
+  padding-bottom: 0.2em;
+}
+.sect1 h3 {
+  font-weight: 700;
+  font-size: 1.4em;
+  color: #47b4c9;
+}
+.sect1 img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.sect1 a {
+  color: #186e87;
+  border-color: #186e87;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.sect1 a:hover {
+  opacity: 1;
+}
+
+.sect2 {
+  padding-top: 2em;
+  background: #fff;
+}
+.sect2 h2 {
+  font-size: 4.5em;
+  font-weight: 700;
+  color: #47b4c9;
+  line-height: 0.9em;
+}
+.sect2 h4 {
+  font-weight: 700;
+  color: #47b4c9;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.sect2 a {
+  font-weight: 700;
+  color: #47b4c9;
+  font-size: 1em;
+}
+.sect2 .sp {
+  font-style: italic;
+  font-weight: 700;
+  color: #186e87;
+}
+.sect2 .phone {
+  padding-top: 2em;
+}
+.sect2 .phone figure {
+  width: 100%;
+}
+.sect2 .phone img {
+  width: 100%;
+}
+.sect2 table {
+  border: 0;
+}
+.sect2 table tr {
+  border: 0;
+}
+.sect2 table tr td {
+  border: 0;
+}
+.sect2 table tr th {
+  border: 0;
+  color: #186e87;
+}
+
+.sect3 {
+  background: #E6FEFB;
+  padding-right: 0 !important;
+  padding-top: 3em !important;
+  padding-bottom: 3em;
+}
+.sect3 h2 {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 5em;
+  color: #47b4c9;
+  padding-top: 1em;
+  line-height: 0.2em;
+  padding-bottom: 0.2em;
+}
+.sect3 h3 {
+  font-weight: 700;
+  font-size: 1.4em;
+  line-height: 0.8em;
+  color: #186e87;
+}
+.sect3 h4 {
+  color: #47b4c9;
+  font-size: 2.7em;
+  line-height: 0.9em;
+}
+.sect3 h5 {
+  font-style: italic;
+  color: #47b4c9;
+  font-size: 0.9em;
+  line-height: 0.5em;
+}
+.sect3 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.sect3 .headphones {
+  margin-bottom: -4em;
+}
+.sect3 img {
+  padding-top: 1em;
+  width: 65%;
+}
+
+.sect4 {
+  padding-bottom: 1.5em;
+  background-color: #fff;
+}
+.sect4 img {
+  width: 19em;
+}
+.sect4 h2 {
+  font-weight: 700;
+  color: #186e87;
+  font-size: 3.5em;
+  line-height: 0.8em;
+}
+.sect4 a {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #186e87;
+}
+.sect4 .try {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: #186e87;
+}
+.sect4 span {
+  font-style: italic;
+  color: #47b4c9;
+}
+
+.nav {
+  background-color: #186e87;
+  color: white;
+  padding: 0.3em;
+}
+
+.footer {
+  background-color: #186e87;
+  color: #f0f0f0;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+}
+.footer .pay img {
+  width: 220px;
+}
+.footer .col h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+}
+.footer .col p {
+  font-size: 0.8em;
+  text-align: justify;
+}
+.footer img {
+  width: 8em;
+  padding-bottom: 1em;
+}
+.footer ul {
+  list-style: none;
+  padding-inline-start: 0 !important;
+}
+.footer ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+.footer ul a:hover {
+  opacity: 1;
+}
+
+.freep h2 {
+  line-height: 1.7em !important;
+}
+.freep a {
+  text-decoration: none;
+}
+
+.gotop {
+  z-index: 1;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-color: #186e87;
+  text-align: center;
+  font-size: 0.9em;
+}
+.gotop:hover {
+  bottom: 1.2em;
+}
+.gotop a {
+  line-height: 2.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.gotop a::after {
+  content: "↑";
+}
+
+/*# sourceMappingURL=style.css.map */
